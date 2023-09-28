@@ -38,7 +38,6 @@ class ExpressionList
     { head = nullptr; }
     ~ExpressionList();
     void appendNode(string, int, string, bool, bool, bool);
-    void appendNode(string, int, string);
     void displayList() const;
   
    
